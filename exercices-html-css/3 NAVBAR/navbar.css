@@ -1,39 +1,39 @@
 .nav-enlace{
     display: inline-block;
-    background: salmon;
-    color:#fff;
+    background: rgb(255, 36, 12);
+    color:#ffffff;
     padding: 10px 30px;
     text-decoration: none;
 }
 .nav-enlace:hover{
-    background: rosybrown;
+    background: rgb(255, 101, 101);
 }
 nav{
-    background: rebeccapurple;
+    background: rgb(134, 26, 241);
     padding: 10px;
     display: flex;
     justify-content: space-around; 
 }
 .nav-boton{
     background: salmon;
-    color: #fff;
-    padding: 10px 0;
-    border: 2px solid #fff;
     display: none;
 }
 
 @media (max-width: 500px) {
     nav{
-        background: black;
+        background: rgb(255, 251, 0);
         flex-direction: column;
     }
     .nav-enlace{
         margin: 10px 0;
     }
     .nav-boton{
+        color: #fff;
+        padding: 10px 0;
+        border: 2px solid #fff;
         display: inline-block;
     }
     .desaparece{
         display: none;
     }
-}
+} 
