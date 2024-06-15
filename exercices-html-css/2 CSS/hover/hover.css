@@ -1,0 +1,18 @@
+button{
+    background: #0036fa;
+    color:#00ffea;
+    width: 10%;
+    height: 120px;
+}
+button:hover{
+    background: #6f00ff;
+}
+button:active{
+    background: #ff0245;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
