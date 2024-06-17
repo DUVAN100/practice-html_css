@@ -1,0 +1,64 @@
+body{
+    font-family: "Playwrite SK", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+h2{
+    font-weight: 400;
+}
+p{
+    font-weight: 300;
+}
+.container{
+    margin: 0 auto;
+    width: 100%;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.text-center{
+    text-align: center;
+}
+.price{
+    font-size: 50px;
+    color: aqua;
+}
+.column{
+    background: rgb(228, 228, 228);
+    color: #333;
+    border: #333 1px solid;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 10px;
+    width:  23%;
+    box-shadow: 10px 10px 5px #888;
+    box-sizing: border-box;
+}
+.btn-buy{
+    background: salmon;
+    text-decoration: none;
+    color: white !important;
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.btn-buy:hover{
+    background: rgb(255, 101, 101);
+}
+
+@media (max-width:1200px) {
+    .column{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+    
+}
+@media (max-width:800px) {
+    .column{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
